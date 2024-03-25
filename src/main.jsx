@@ -8,6 +8,8 @@ import {
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import BookDetails from './components/BookDetails/BookDetails';
+import ListedBooks from './components/ListedBooks/ListedBooks';
+import PageRead from './components/PageRead/PageRead';
 
 
 const router = createBrowserRouter([
@@ -20,12 +22,12 @@ const router = createBrowserRouter([
         element: <Home></Home>
       },
       {
-        path: '/listedBooks',
-        element: <h3>listed books</h3>
+        path: '/listed-books',
+        element: <ListedBooks></ListedBooks>
       },
       {
-        path: '/pageToRead',
-        element: <h3>page to read</h3>
+        path: '/page-read',
+        element: <PageRead></PageRead>
       },
       {
         path: '/book/:id',

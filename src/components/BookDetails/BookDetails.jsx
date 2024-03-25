@@ -15,7 +15,7 @@ const BookDetails = () => {
         <section className="my-5">
             <div className=" p-6 mx-auto space-y-6 sm:space-y-12">
                 <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 ">
-                    <img src={image} alt="" className="object-cover bg-center w-full rounded sm:h-80 lg:col-span-7" />
+                    <img src={image} alt="" className="object-cover w-full rounded sm:h-80 lg:col-span-7" />
                     <div className="p-6 space-y-2 lg:col-span-5">
                         <h3 className="text-2xl font-bold sm:text-4xl">{bookName}</h3>
                         <p className="font-semibold mt-2">By: {author}</p>
