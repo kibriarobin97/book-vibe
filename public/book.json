@@ -1,0 +1,154 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/GMzYbBX/images.jpg",
+        "review": "A timeless classic that addresses important issues of race and injustice in a small Southern town.",
+        "totalPages": 324,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "American Literature",
+            "Social Issues"
+        ],
+        "publisher": "Harper Perennial Modern Classics",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 2,
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://i.ibb.co/zHNxG8q/download.jpg",
+        "review": "A captivating tale of self-discovery and destiny as a shepherd boy embarks on a journey to fulfill his dreams.",
+        "totalPages": 197,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Adventure",
+            "Philosophical Fiction",
+            "Self-Help"
+        ],
+        "publisher": "HarperCollins",
+        "yearOfPublishing": 1988
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Great Gatsby",
+        "author": "https://i.ibb.co/F3JXb06/images-1.jpg",
+        "review": "An evocative portrayal of the Jazz Age and the American Dream.",
+        "totalPages": 180,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Romance",
+            "Historical Fiction"
+        ],
+        "publisher": "Scribner",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/KhgFZLP/download-1.jpg",
+        "review": "A coming-of-age novel that captures the alienation and disillusionment of adolescence.",
+        "totalPages": 224,
+        "rating": 4.2,
+        "category": "Fiction",
+        "tags": [
+            "Coming of Age",
+            "Young Adult",
+            "American Literature"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.ibb.co/nrC5DMg/images-2.png",
+        "review": "A witty and romantic novel that satirizes the societal norms of 19th-century England.",
+        "totalPages": 279,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": [
+            "Romance",
+            "Satire",
+            "Regency Era"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/3M44fD5/images-2.jpg",
+        "review": "A charming fantasy adventure that introduces readers to the world of Middle-earth.",
+        "totalPages": 310,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Middle-earth",
+            "Quest"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": 7,
+        "bookName": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "image": "https://i.ibb.co/D7d7nHY/9781408855652-2-Z.webp",
+        "review": "The magical beginning of a beloved series that follows the journey of a young wizard.",
+        "totalPages": 223,
+        "rating": 4.9,
+        "category": "Fantasy",
+        "tags": [
+            "Magic",
+            "Wizards",
+            "Children's Literature"
+        ],
+        "publisher": "Bloomsbury",
+        "yearOfPublishing": 1997
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/ypDZyC7/images-3.jpg",
+        "review": "An epic fantasy trilogy that chronicles the struggle against the Dark Lord Sauron.",
+        "totalPages": 1178,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": [
+            "Epic",
+            "Adventure",
+            "High Fantasy"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1954
+    },
+    {
+        "bookId": 9,
+        "bookName": "Moby-Dick",
+        "author": "Herman Melville",
+        "image": "https://i.ibb.co/qrzw7VN/images-4.jpg",
+        "review": "A monumental novel that delves into themes of obsession, fate, and the nature of evil.",
+        "totalPages": 624,
+        "rating": 4.4,
+        "category": "Fiction",
+        "tags": [
+            "Adventure",
+            "Whaling",
+            "Symbolism"
+        ],
+        "publisher": "Richard Bentley",
+        "yearOfPublishing": 1851
+    }
+]
