@@ -36,7 +36,8 @@
     {
         "bookId": 3,
         "bookName": "The Great Gatsby",
-        "author": "https://i.ibb.co/F3JXb06/images-1.jpg",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/xF92Csh/1x-1.jpg",
         "review": "An evocative portrayal of the Jazz Age and the American Dream.",
         "totalPages": 180,
         "rating": 4.3,
@@ -138,7 +139,7 @@
         "bookId": 9,
         "bookName": "Moby-Dick",
         "author": "Herman Melville",
-        "image": "https://i.ibb.co/qrzw7VN/images-4.jpg",
+        "image": "https://i.ibb.co/z23HwVC/41-QJo8390-EL.jpg",
         "review": "A monumental novel that delves into themes of obsession, fate, and the nature of evil.",
         "totalPages": 624,
         "rating": 4.4,
