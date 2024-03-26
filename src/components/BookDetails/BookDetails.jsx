@@ -1,15 +1,19 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveDataToLocalStorage } from "../../utils/utils";
 
 const BookDetails = () => {
 
-    const jobs = useLoaderData()
+    const books = useLoaderData()
     const { id } = useParams()
     const idInt = parseInt(id)
 
-    const job = jobs.find(job => job.bookId === idInt);
+    const book = books.find(book => book.bookId === idInt);
 
-    const { image, bookName, author, tags, category, rating, review, totalPages, publisher, yearOfPublishing } = job;
+    const { image, bookName, author, tags, category, rating, review, totalPages, publisher, yearOfPublishing } = book;
 
+    const handleRead = () => {
+        saveDataToLocalStorage(book)
+    }
 
     return (
         <section className="my-5">
@@ -33,7 +37,9 @@ const BookDetails = () => {
                         <p>Year of Publishing: <span className="font-bold">{yearOfPublishing}</span></p>
                         <p>Rating: <span className="font-bold">{rating}</span></p>
                         <div className="flex gap-3 py-3">
-                            <button className="btn bg-[#23BE0A] text-white font-bold">Read</button>
+                            <button 
+                            onClick={handleRead}
+                            className="btn bg-[#23BE0A] text-white font-bold">Read</button>
                             <button className="btn bg-[#50B1C9] font-bold">Wishlist</button>
                         </div>
                     </div>
