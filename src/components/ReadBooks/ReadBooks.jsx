@@ -10,9 +10,9 @@ const ReadBooks = () => {
         const data = getDataFromLocalStorage()
         setReadBook(data);
     }, [])
-    console.log(readBook)
+    // console.log(readBook)
     return (
-        <div>
+        <div className="flex flex-col justify-center items-center">
             {
                 readBook.map((book) => <ShowReadBooks key={book.bookId} book={book}></ShowReadBooks>)
             }

@@ -4,10 +4,9 @@ import { GrUserManager } from "react-icons/gr";
 import { MdOutlineContactPage } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
+const ShowWishlist = ({ book }) => {
 
-const ShowReadBooks = ({ book }) => {
-
-    const {bookId, image, bookName, author, tags, category, rating, totalPages, publisher, yearOfPublishing } = book;
+    const { bookId, image, bookName, author, tags, category, rating, totalPages, publisher, yearOfPublishing } = book;
 
     return (
         <div className="card lg:card-side bg-base-100 shadow-xl my-5">
@@ -44,7 +43,8 @@ const ShowReadBooks = ({ book }) => {
                         <p className='px-3 py-2 rounded-full font-medium text-[#FFAC33] bg-[#FFAC3326]'>Rating: {rating}</p>
                     </ul>
                     <Link to={`/book/${bookId}`}>
-                        <button className="btn bg-[#23BE0A] text-white font-bold rounded-full">View Details</button>
+                        <button
+                            className="btn bg-[#23BE0A] text-white font-bold rounded-full">View Details</button>
                     </Link>
                 </div>
             </div>
@@ -52,9 +52,8 @@ const ShowReadBooks = ({ book }) => {
     );
 };
 
-
-ShowReadBooks.propTypes = {
+ShowWishlist.propTypes = {
     book: PropTypes.object
 }
 
-export default ShowReadBooks;
+export default ShowWishlist;

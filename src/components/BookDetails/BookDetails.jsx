@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { saveDataToLocalStorage } from "../../utils/utils";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const BookDetails = () => {
@@ -14,6 +15,10 @@ const BookDetails = () => {
 
     const handleRead = () => {
         saveDataToLocalStorage(book)
+    }
+
+    const handleWishlist = () => {
+        saveDataToLocalStorage(book);
     }
 
     return (
@@ -41,11 +46,13 @@ const BookDetails = () => {
                             <button 
                             onClick={handleRead}
                             className="btn bg-[#23BE0A] text-white font-bold">Read</button>
-                            <button className="btn bg-[#50B1C9] font-bold">Wishlist</button>
+                            <button
+                            onClick={handleWishlist}
+                            className="btn bg-[#50B1C9] font-bold">Wishlist</button>
                         </div>
                     </div>
                 </div>
-
+                
             </div>
         </section>
     );

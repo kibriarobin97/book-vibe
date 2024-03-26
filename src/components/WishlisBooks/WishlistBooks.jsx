@@ -1,7 +1,22 @@
+import { useEffect, useState } from "react";
+import { getDataFromLocalStorage } from "../../utils/utils";
+import ShowWishlist from "../ShowWishlist/ShowWishlist";
+
 const WishlistBooks = () => {
+
+    const [wishlistBook, setWishlistBook] = useState([])
+
+    useEffect(() => { 
+        const data = getDataFromLocalStorage()
+        setWishlistBook(data);
+    }, [])
+
+    console.log(wishlistBook)
     return (
-        <div>
-            <h3>wishlist book</h3>
+        <div className="flex flex-col justify-center items-center">
+            {
+                wishlistBook.map(book => <ShowWishlist key={book.bookId} book={book}></ShowWishlist>)
+            }
         </div>
     );
 };
