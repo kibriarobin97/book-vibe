@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { saveDataToLocalStorage } from "../../utils/utils";
 
+
 const BookDetails = () => {
 
     const books = useLoaderData()
