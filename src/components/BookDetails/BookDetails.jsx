@@ -1,5 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveDataToLocalStorage } from "../../utils/utils";
+import { saveDataForWishlist, saveDataToLocalStorage } from "../../utils/utils";
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -18,7 +18,7 @@ const BookDetails = () => {
     }
 
     const handleWishlist = () => {
-        saveDataToLocalStorage(book);
+        saveDataForWishlist(book);
     }
 
     return (

@@ -13,12 +13,14 @@ import PageRead from './components/PageRead/PageRead';
 import ReadBooks from './components/ReadBooks/ReadBooks';
 import WishlistBooks from './components/WishlisBooks/WishlistBooks';
 import { ToastContainer } from 'react-toastify';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',

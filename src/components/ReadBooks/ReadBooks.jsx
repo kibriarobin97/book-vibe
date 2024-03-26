@@ -12,7 +12,7 @@ const ReadBooks = () => {
     }, [])
     // console.log(readBook)
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div>
             {
                 readBook.map((book) => <ShowReadBooks key={book.bookId} book={book}></ShowReadBooks>)
             }
