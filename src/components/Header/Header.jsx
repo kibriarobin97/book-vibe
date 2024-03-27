@@ -12,6 +12,7 @@ const Header = () => {
                         <li><NavLink to='/' className="font-bold">Home</NavLink></li>
                         <li><NavLink to='/listed-books' className="font-bold">Listed Books</NavLink></li>
                         <li><NavLink to='/page-read' className="font-bold">Pages to Read</NavLink></li>
+                        <li><NavLink to='/contact' className="font-bold">Contact Us</NavLink></li>
                     </ul>
                 </div>
                 <Link to='/' className="btn btn-ghost text-3xl font-bold">Book-Vibe</Link>
@@ -21,6 +22,7 @@ const Header = () => {
                     <li><NavLink to='/' className="font-bold">Home</NavLink></li>
                     <li><NavLink to='/listed-books' className="font-bold">Listed Books</NavLink></li>
                     <li><NavLink to='/page-read' className="font-bold">Pages to Read</NavLink></li>
+                    <li><NavLink to='/contact' className="font-bold">Contact Us</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end gap-3">
