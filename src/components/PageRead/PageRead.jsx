@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getDataFromLocalStorage } from "../../utils/utils";
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
-
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from 'recharts';
+// import PropTypes from 'prop-types';
 
 
 const PageRead = () => {
@@ -28,29 +28,34 @@ const PageRead = () => {
         Z`;
     };
     return (
-        <div className="flex justify-center items-center">
-            <BarChart
-                width={1200}
-                height={500}
-                data={readBookChart}
-                margin={{
-                    top: 20,
-                    right: 30,
-                    left: 20,
-                    bottom: 5,
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="bookName" />
-                <YAxis />
-                <Bar dataKey="totalPages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
-                    {readBookChart.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-                    ))}
-                </Bar>
-            </BarChart>
-        </div>
+            <ResponsiveContainer width="100%"
+                height={500}>
+                <BarChart
+
+                    data={readBookChart}
+                    margin={{
+                        top: 20,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="bookName" />
+                    <YAxis />
+                    <Bar dataKey="totalPages" fill="#8884d8" shape={<TriangleBar />} label={{ position: 'top' }}>
+                        {readBookChart.map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+                        ))}
+                    </Bar>
+                </BarChart>
+            </ResponsiveContainer>
     );
 };
+
+
+// TriangleBar.propTypes = {
+//     props: PropTypes.object
+// }
 
 export default PageRead;

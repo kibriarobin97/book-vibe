@@ -14,7 +14,7 @@ const Header = () => {
                         <li><NavLink to='/page-read' className="font-bold">Pages to Read</NavLink></li>
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost text-2xl font-bold">Book Vibe</Link>
+                <Link to='/' className="btn btn-ghost text-3xl font-bold">Book-Vibe</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

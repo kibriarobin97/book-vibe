@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getDataForWishlist, getDataFromLocalStorage } from "../../utils/utils";
+import { getDataForWishlist} from "../../utils/utils";
 import ShowWishlist from "../ShowWishlist/ShowWishlist";
 
 const WishlistBooks = () => {
