@@ -10,7 +10,7 @@ const ReadBooks = () => {
         const data = getDataFromLocalStorage()
         setReadBook(data);
     }, [])
-    
+    // console.log(readBook)
     
     return (
         

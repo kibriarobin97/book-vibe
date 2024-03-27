@@ -16,10 +16,12 @@ export const saveDataToLocalStorage = (book) => {
 export const getDataFromLocalStorage = () => {
     const getData = JSON.parse(localStorage.getItem('read-list')) || [];
     return getData;
-}
+};
 
 export const saveDataForWishlist = (book) => {
-    if (!localStorage.getItem('read-list')) {
+    const readExistsData = getDataFromLocalStorage()
+    const existsData = readExistsData.find(data => data.bookId === book.bookId);
+    if (!existsData) {
         const saveData = JSON.parse(localStorage.getItem('wishlist')) || [];
         const exists = saveData.find(item => item.bookId === book.bookId);
 
@@ -36,7 +38,7 @@ export const saveDataForWishlist = (book) => {
         toast.warn('This book is already read');
     }
 
-}
+};
 
 export const getDataForWishlist = () => {
     const getsData = JSON.parse(localStorage.getItem('wishlist')) || [];

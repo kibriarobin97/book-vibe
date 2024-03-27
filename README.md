@@ -9,4 +9,5 @@
     i. Read list
     ii. Wishlist
 6. Pages already read are shown through graph charts.
-7. allover visitor friendly website.
+7. Mobile Responsive
+8. allover visitor friendly website.

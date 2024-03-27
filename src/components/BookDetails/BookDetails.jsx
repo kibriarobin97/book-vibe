@@ -45,7 +45,7 @@ const BookDetails = () => {
                         <div className="flex gap-3 py-3">
                             <button 
                             onClick={handleRead}
-                            className="btn bg-[#23BE0A] text-white font-bold">Read</button>
+                            className="btn bg-[#23BE0A] text-white font-bold hover:text-black duration-500">Read</button>
                             <button
                             onClick={handleWishlist}
                             className="btn bg-[#50B1C9] font-bold">Wishlist</button>

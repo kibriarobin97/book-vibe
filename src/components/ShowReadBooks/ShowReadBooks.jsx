@@ -44,7 +44,7 @@ const ShowReadBooks = ({ book }) => {
                         <p className='px-3 py-2 rounded-full font-medium text-[#FFAC33] bg-[#FFAC3326]'>Rating: {rating}</p>
                     </ul>
                     <Link to={`/book/${bookId}`}>
-                        <button className="btn bg-[#23BE0A] text-white font-bold rounded-full">View Details</button>
+                        <button className="btn bg-[#23BE0A] text-white font-bold rounded-full hover:text-black duration-500">View Details</button>
                     </Link>
                 </div>
             </div>

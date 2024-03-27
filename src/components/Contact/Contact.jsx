@@ -40,7 +40,7 @@ const Contact = () => {
                         <span className="mb-1">Message</span>
                         <textarea rows="3" className="block p-2 w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400"></textarea>
                     </label>
-                    <button type="button" className="text-center px-8 py-3 text-lg rounded-lg bg-[#23BE0A] text-white btn font-bold">Submit</button>
+                    <button type="button" className="text-center px-8 py-3 text-lg rounded-lg bg-[#23BE0A] text-white btn font-bold hover:text-black duration-500">Submit</button>
                 </form>
             </div>
         </section>

@@ -26,8 +26,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-3">
-                <a className="btn bg-[#23BE0A] text-white">Sign In</a>
-                <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
+                <a className="btn bg-[#23BE0A] text-white font-bold hover:text-black duration-500">Sign In</a>
+                <a className="btn bg-[#59C6D2] text-black font-bold">Sign Up</a>
             </div>
         </div>
     );

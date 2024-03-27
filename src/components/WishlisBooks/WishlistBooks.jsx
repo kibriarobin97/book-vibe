@@ -10,6 +10,7 @@ const WishlistBooks = () => {
         const data = getDataForWishlist()
         setWishlistBook(data);
     }, [])
+    
 
     // console.log(wishlistBook)
     return (
