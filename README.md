@@ -1,6 +1,6 @@
-name: book-vibe
-live link: https://books-vibe-shop.surge.sh/
-Features: 
+#name: book-vibe
+#live link: https://books-vibe-shop.surge.sh/
+#Features: 
 1. Responsible Navbar.
 2. Welcome banner for visitors.
 3. Lots of famous books collection.
