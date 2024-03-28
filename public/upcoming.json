@@ -1,0 +1,35 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Midnight Library",
+      "image": "https://i.ibb.co/8YVrfw1/canongate-20-1-213233b-1000x0.jpg",
+      "author": "Matt Haig",
+      "category": "Fiction",
+      "publishingDate": "2024-06-15"
+    },
+    {
+      "bookId": 2,
+      "bookName": "Project Hail Mary",
+      "image": "https://i.ibb.co/1nvtDvm/10964-93683.jpg",
+      "author": "Andy Weir",
+      "category": "Science Fiction",
+      "publishingDate": "2024-08-10"
+    },
+    {
+      "bookId": 3,
+      "bookName": "A Psalm for the Wild-Built",
+      "image": "https://i.ibb.co/74nmztD/9781250236210.webp",
+      "author": "Becky Chambers",
+      "category": "Science Fiction",
+      "publishingDate": "2024-07-20"
+    },
+    {
+      "bookId": 4,
+      "bookName": "Beautiful World, Where Are You",
+      "image": "https://i.ibb.co/XyCLJqM/images-5.jpg",
+      "author": "Sally Rooney",
+      "category": "Literary Fiction",
+      "publishingDate": "2024-09-05"
+    }
+  ]
+  
