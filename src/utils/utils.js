@@ -7,10 +7,10 @@ export const saveDataToLocalStorage = (book) => {
     if (!dataExists) {
         savedData.push(book);
         localStorage.setItem('read-list', JSON.stringify(savedData));
-        toast.success("Successfully added to read list")
+        toast.success("Successfully added to read list", {position: "top-center"})
     }
     else {
-        toast.warn('Already exists in reading list');
+        toast.warn('Already exists in reading list', {position: "top-center"});
     }
 };
 export const getDataFromLocalStorage = () => {
@@ -28,14 +28,14 @@ export const saveDataForWishlist = (book) => {
         if (!exists) {
             saveData.push(book);
             localStorage.setItem('wishlist', JSON.stringify(saveData));
-            toast.success('Successfully added to wishlist');
+            toast.success('Successfully added to wishlist', {position: "top-center"});
         }
         else {
-            toast.warn('Already exists in wishlist');
+            toast.warn('Already exists in wishlist', {position: "top-center"});
         }
     }
     else{
-        toast.warn('This book is already read');
+        toast.warn('This book is already read', {position: "top-center"});
     }
 
 };
